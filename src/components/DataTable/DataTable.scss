@@ -1,0 +1,25 @@
+.data-grid {
+    background-color: #fff;
+    padding: 20px;
+
+    .MuiDataGrid-root {
+        border: 0;
+    }
+
+    .MuiDataGrid-toolbarContainer {
+        flex-direction: row-reverse;
+    }
+
+    img {
+        height: 32px;
+        width: 32px;
+        border-radius: 50%;
+    }
+
+    a {
+        .icon {
+            height: 20px;
+            width: 20px;
+        }
+    }
+  }

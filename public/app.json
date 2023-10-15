@@ -1,0 +1,106 @@
+{
+  "productForm": [
+    {
+      "fieldType": "text",
+      "margin": "dense",
+      "id": "title",
+      "label": "Title",
+      "type": "text",
+      "fullWidth": false,
+      "variant": "standard"
+    },
+    {
+      "fieldType": "text",
+      "margin": "dense",
+      "id": "color",
+      "label": "Color",
+      "type": "text",
+      "fullWidth": false,
+      "variant": "standard"
+    },
+    {
+      "fieldType": "text",
+      "margin": "dense",
+      "id": "price",
+      "label": "Price",
+      "type": "price",
+      "fullWidth": false,
+      "variant": "standard"
+    },
+    {
+      "fieldType": "text",
+      "margin": "dense",
+      "id": "producer",
+      "label": "Producer",
+      "type": "producer",
+      "fullWidth": false,
+      "variant": "standard"
+    },
+    {
+      "fieldType": "text",
+      "margin": "dense",
+      "id": "name",
+      "label": "Created At",
+      "type": "createdAt",
+      "fullWidth": false,
+      "variant": "standard"
+    },
+    {
+      "fieldType": "switch",
+      "id": "inStock",
+      "label": "In Stock"
+    }
+  ],
+  "userForm": [
+    {
+      "fieldType": "text",
+      "margin": "dense",
+      "id": "name",
+      "label": "First name",
+      "type": "text",
+      "fullWidth": false,
+      "variant": "standard"
+    },
+    {
+      "fieldType": "text",
+      "margin": "dense",
+      "id": "name",
+      "label": "Last name",
+      "type": "text",
+      "fullWidth": false,
+      "variant": "standard"
+    },
+    {
+      "fieldType": "text",
+      "margin": "dense",
+      "id": "name",
+      "label": "Email",
+      "type": "email",
+      "fullWidth": false,
+      "variant": "standard"
+    },
+    {
+      "fieldType": "text",
+      "margin": "dense",
+      "id": "name",
+      "label": "Phone",
+      "type": "phone",
+      "fullWidth": false,
+      "variant": "standard"
+    },
+    {
+      "fieldType": "text",
+      "margin": "dense",
+      "id": "name",
+      "label": "Created At",
+      "type": "createdAt",
+      "fullWidth": false,
+      "variant": "standard"
+    },
+    {
+      "fieldType": "switch",
+      "label": "Verified",
+      "id": "verified"
+    }
+  ]
+}

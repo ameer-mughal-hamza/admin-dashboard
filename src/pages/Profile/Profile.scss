@@ -1,0 +1,88 @@
+@import "../../styles/variables.scss";
+.profile {
+  display: flex;
+  height: 100%;
+  width: 100%;
+
+  .view {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+
+    hr {
+      width: 90%;
+    margin: 30px auto;
+    }
+
+    .top-info {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 30px;
+      img {
+        width: 100px;
+        height: 100px;
+        border-radius: 20px;
+      }
+      button {
+        background-color: $soft-bg;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+      }
+    }
+    .details {
+      .item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin: 15px 0;
+      }
+    }
+
+    .chart {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .activities {
+    h1 {
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style-type: none;
+      position: relative;
+      li {
+        list-style-type: none;
+        position: relative;
+        width: 1px;
+        padding-top: 50px;
+        background-color: #f45b69;
+        div {
+          min-width: 480px;
+          padding: 15px;
+          background-color: rgba(244, 91, 104, 0.062745098);
+          time {
+            font-size: 12px;
+          }
+          &::after {
+            content: "";
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #f45b69;
+            transform: translateX(-50%);
+          }
+        }
+      }
+    }
+  }
+}

@@ -9,6 +9,7 @@ import Users from "@pages/Users/Users";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 
 import './styles/global.scss'
+import Profile from "@pages/Profile/Profile";
 
 const Layout = () => {
   return (
@@ -40,6 +41,10 @@ function App() {
         {
           path: "users",
           element: <Users />,
+        },
+        {
+          path: "users/1",
+          element: <Profile />,
         },
         {
           path: "products",
